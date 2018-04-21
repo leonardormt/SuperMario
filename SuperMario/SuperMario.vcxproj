@@ -113,16 +113,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\bloque.h" />
     <ClInclude Include="src\linea.h" />
+    <ClInclude Include="src\obj_fijo.h" />
     <ClInclude Include="src\obj_movil.h" />
     <ClInclude Include="src\personaje_basico.h" />
+    <ClInclude Include="src\plataforma.h" />
     <ClInclude Include="src\vector2D.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="src\bloque.cpp" />
     <ClCompile Include="src\linea.cpp" />
+    <ClCompile Include="src\obj_fijo.cpp" />
     <ClCompile Include="src\obj_movil.cpp" />
     <ClCompile Include="src\personaje_basico.cpp" />
+    <ClCompile Include="src\plataforma.cpp" />
     <ClCompile Include="src\vector2D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

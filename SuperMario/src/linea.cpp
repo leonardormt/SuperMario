@@ -11,8 +11,4 @@ linea::~linea()
 {
 }
 
-void linea::suma()
-{
 
-
-}
