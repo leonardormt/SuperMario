@@ -10,8 +10,9 @@ linea::linea()
 linea::~linea()
 {
 }
-linea::suma()
+
+void linea::suma()
 {
 
 
- }
+}
