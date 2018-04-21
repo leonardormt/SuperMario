@@ -1,10 +1,10 @@
 #pragma once
 class vector2D
 {
- //atributos
+ 
+public: //métodos
 	float x;
 	float y;
-public: //métodos
 	vector2D(float xv = 0.0f, float yv = 0.0f); // (1)
 	virtual ~vector2D();
 	/*float modulo(); // (2) modulo del vector
